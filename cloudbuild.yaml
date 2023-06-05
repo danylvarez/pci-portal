@@ -1,0 +1,16 @@
+steps:
+  - name: 'gcr.io/cloud-builders/gsutil'
+    args: ['cp', '-r', '.', 'gs://${_ARTIFACTS_BUCKET}/${_ARTIFACTS_PATH}']
+
+  - name: 'gcr.io/google.com/cloudsdktool/cloud-sdk'
+    entrypoint: 'bash'
+    args:
+      - '-c'
+      - |
+        if [[ $BRANCH_NAME == "dev" ]]; then
+          # Despliega en el ambiente de desarrollo
+          gcloud app deploy --project=${PROJECT_ID} --version=dev-${_APP_VERSION} --no-promote
+        else
+          # Despliega en el ambiente de producción
+          gcloud app deploy --project=${PROJECT_ID} --version=prod-${_APP_VERSION} --promote --stop-previous-version
+        fi
