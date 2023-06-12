@@ -1,7 +1,4 @@
 steps:
-  - name: 'gcr.io/cloud-builders/gsutil'
-    args: ['cp', '-r', '.', 'gs://${_ARTIFACTS_BUCKET}/${_ARTIFACTS_PATH}']
-
   - name: 'gcr.io/google.com/cloudsdktool/cloud-sdk'
     entrypoint: 'bash'
     args:
