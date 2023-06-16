@@ -1,83 +1,3 @@
-/* .navbar-nav  li ul {
-    display: none;
-    position: absolute;
-}
-.navbar-nav  li:hover>ul{
-    display: block;
-}
-ul {
-    list-style: none;
-}
-a:hover{
-    font-weight: bold;
-} */
-
-.wrapper {
-    max-width: 1224px;
-    width: 100%;
-    margin: 0 auto;
-}
-
-.wrapper-toflex {
-    max-width: 1252px;
-    width: 100%;
-    margin: 0 auto;
-}
-
-.header {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    z-index: 100;
-}
-
-.header-menu_icon {
-    display: block;
-}
-
-/* .mobile {
-    display: flex;
-} */
-
-/* @media screen and (max-width: 720px) {
-    .desktop {
-        display: none;
-    }
-} */
-
-.navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 45px;
-    box-sizing: border-box;
-}
-
-.header-list {
-    display: flex;
-    max-width: fit-content;
-    width: 100%;
-    padding: 0;
-}
-
-.header-list_item {
-    list-style-type: none;
-    padding: 0;
-    margin: 0 30px 0 0;
-}
-
-.header-list_item:last-child {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-}
-
-.header-list_options {
-    text-decoration: none;
-    font-size: 16px;
-}
-
 .announcements {
     margin: 90px auto 0;
     padding: 30px 0 0;
@@ -106,9 +26,14 @@ a:hover{
     margin: 16px 6px 0;
 }
 
-/* Estilos para el punto activo de paginación */
 .splide__pagination__page.is-active {
     background-color: #4287f5;
+}
+
+@media (max-width: 767px) {
+    .splide__track {
+        height: 200px;
+    }
 }
 
 .pray {
@@ -118,6 +43,12 @@ a:hover{
 .pray-button_container {
     display: flex;
     justify-content: center;
+}
+
+@media (max-width: 767px) {
+    .pray-button_container {
+        font-size: 16px;
+    }
 }
 
 .preaching {
@@ -136,8 +67,33 @@ a:hover{
     margin: 0 0 0 16px;
 }
 
+.preaching-video {
+    width: 560px;
+    height: 315px;
+}
+
 .preaching-text {
     font-size: 22px;
+}
+
+@media (max-width: 767px) {
+    .preaching-container {
+        flex-direction: column;
+    }
+
+    .preaching-content {
+        margin: 0;
+    }
+
+    .preaching-video {
+        width: 340px;
+        height: 190px;
+    }
+
+    .preaching-text {
+        font-size: 16px;
+        text-align: center;
+    }
 }
 
 .testimonies {
@@ -182,13 +138,4 @@ a:hover{
     margin: 16px 0 0;
     font-size: 14px;
     text-align: justify;
-}
-
-.footer-container {
-    padding: 40px;
-    box-sizing: border-box;
-}
-
-.footer-copyright {
-    margin: 0 0 16px;
 }
