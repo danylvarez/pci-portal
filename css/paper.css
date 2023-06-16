@@ -1,0 +1,10 @@
+.fotos-18{
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+  }
+  
+  .fotos-18{
+    max-width: 400px;
+    padding: 1rem;
+  }

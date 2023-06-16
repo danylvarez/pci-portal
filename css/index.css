@@ -1,0 +1,194 @@
+/* .navbar-nav  li ul {
+    display: none;
+    position: absolute;
+}
+.navbar-nav  li:hover>ul{
+    display: block;
+}
+ul {
+    list-style: none;
+}
+a:hover{
+    font-weight: bold;
+} */
+
+.wrapper {
+    max-width: 1224px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.wrapper-toflex {
+    max-width: 1252px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+}
+
+.header-menu_icon {
+    display: block;
+}
+
+/* .mobile {
+    display: flex;
+} */
+
+/* @media screen and (max-width: 720px) {
+    .desktop {
+        display: none;
+    }
+} */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 45px;
+    box-sizing: border-box;
+}
+
+.header-list {
+    display: flex;
+    max-width: fit-content;
+    width: 100%;
+    padding: 0;
+}
+
+.header-list_item {
+    list-style-type: none;
+    padding: 0;
+    margin: 0 30px 0 0;
+}
+
+.header-list_item:last-child {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.header-list_options {
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.announcements {
+    margin: 90px auto 0;
+    padding: 30px 0 0;
+}
+
+.announcements-slide {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.announcements-img {
+    object-fit: cover;
+}
+
+.splide__pagination {
+    position: inherit;
+    margin: 16px 0 0;
+}
+
+.splide__pagination__page {
+    width: 12px;
+    height: 12px;
+    background-color: #031944;
+    border-radius: 50%;
+    margin: 16px 6px 0;
+}
+
+/* Estilos para el punto activo de paginación */
+.splide__pagination__page.is-active {
+    background-color: #4287f5;
+}
+
+.pray {
+    padding: 50px 0 0;
+}
+
+.pray-button_container {
+    display: flex;
+    justify-content: center;
+}
+
+.preaching {
+    padding: 50px 0 0;
+}
+
+.preaching-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1244px;
+    margin: 0 auto;
+}
+
+.preaching-content {
+    margin: 0 0 0 16px;
+}
+
+.preaching-text {
+    font-size: 22px;
+}
+
+.testimonies {
+    padding: 50px 0;
+}
+
+.testimonies-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.testimonies-img {
+    margin: 0 auto;
+    width: 100%;
+    object-fit: cover;
+}
+
+.testimonies-card {
+    box-shadow: 0 2px 4px rgba(51, 153, 255, 0.4);
+    border-radius: 12px;
+    max-width: 285px;
+    width: 100%;
+    height: auto;
+    max-height: 609px;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    margin: 0 6px 6px;
+}
+
+.testimonies-title {
+    margin: 6px 0 0;
+    font-size: 18px;
+}
+
+.testimonies-date {
+    margin: 6px 0 0;
+    font-size: 10px;
+}
+
+.testimonies-text {
+    margin: 16px 0 0;
+    font-size: 14px;
+    text-align: justify;
+}
+
+.footer-container {
+    padding: 40px;
+    box-sizing: border-box;
+}
+
+.footer-copyright {
+    margin: 0 0 16px;
+}

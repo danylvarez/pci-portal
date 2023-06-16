@@ -1,0 +1,27 @@
+.primary-background {
+    background-color: #031944;
+}
+
+.secondary-background {
+    background-color: white;
+}
+
+.primary-text {
+    color: #031944;
+}
+
+.secondary-text {
+    color: white;
+}
+
+.terciary-text {
+    color: #4287f5;
+}
+
+.normal-text {
+    color: #333333
+}
+
+.light-text {
+    color: #535353;
+}
