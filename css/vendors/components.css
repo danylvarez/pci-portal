@@ -1,0 +1,19 @@
+.primary-button-anchor {
+    padding: 10px 20px;
+    background-color: #031944;
+    border-radius: 10px;
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    transition: color 0.3s ease-in-out;
+}
+
+.primary-button-anchor:hover {
+    padding: 10px 20px;
+    background-color: #4287f5;
+    border-radius: 10px;
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    text-align: center;
+}

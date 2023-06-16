@@ -1,0 +1,7 @@
+textarea {
+    min-height: 60px;
+}
+.btn{
+    border-radius: 3px;
+    display: inline-block;
+}
