@@ -1,6 +1,7 @@
 # pci-portal
 Repository por PCI Web Portal: puertadelcielointernacional.org
 
+#TODO sacar las imagenes de fb, youtub e insta del home en un svg que no provenga de bootstrap
 #TODO verificar que los pesos de las imagenes no excedan los 500 KB
 #TODO verificar que las imagenes sean pngs o svg si son vectores, ningún otro formato
 #TODO Subir imágenes al bucket y por consecuente, en todos los html, todas los tags de img deben apuntar a las urls del bucket
