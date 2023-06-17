@@ -1,0 +1,65 @@
+.prayRequest {
+    margin: 90px auto 0;
+    box-sizing: border-box;
+    padding: 30px 8px;
+}
+
+.prayRequest-title {
+    font-family: 'Lato-Bold', sans-serif;
+    font-size: 24px;
+    text-align: center;
+}
+
+.prayRequest-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.prayRequest-group {
+    margin-bottom: 10px;
+}
+
+.prayRequest-label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.prayRequest-input,
+.prayRequest-textarea {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.prayRequest__input {
+    height: 100px;
+}
+
+.prayRequest-error-message {
+    color: red;
+    font-size: 12px;
+    margin-top: 5px;
+    display: none;
+}
+
+.prayRequest-submit {
+    width: 100%;
+    background-color: #4287f5;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.prayRequest-submit:hover {
+    background-color: #1e5ab9;
+}
+
+.prayRequest-submit:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+}
